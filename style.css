@@ -39,6 +39,11 @@ a:hover{
 	color: #B5BAD0;
 }
 
+.typeform-share:hover{
+	background-color: #B5BAD0;
+	color: white;
+}
+
 .btn-blue:hover{
 	background-color: #B5BAD0;
 	color: white;
