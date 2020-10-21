@@ -1,0 +1,119 @@
+body {
+background-color:#E0E0E2;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+
+}
+
+h1{
+font-family: 'Lora', serif;
+color: #B5BAD0;
+font-size: 46px;
+font-weight: bold;
+margin: 20px;
+}
+
+h2{
+font-family: 'Lora', serif;
+color: white;
+font-size: 32px;
+font-weight: 100;
+background-color: #B5BAD0;
+color: white;
+padding: 15px;
+border-radius: 6px;
+}
+
+p{
+	font-size: 16px;
+	color: #416788;
+}
+
+a{
+	color: #81D2C7;
+	font-size: 60px;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: #B5BAD0;
+}
+
+.btn-blue:hover{
+	background-color: #B5BAD0;
+	color: white;
+}
+
+.h1p{
+	text-align: justify;
+	margin: 20px;
+	padding: 20px;
+}
+
+.etudes{
+	text-align: justify;
+	margin: 20px;
+	padding: 20px;
+}
+
+.competences{
+	text-align: justify;
+	margin: 20px;
+	padding: 20px;
+}
+
+.btn-blue{
+	font-family: 'Lora', serif;
+	background-color: #81D2C7;
+	color: white;
+	font-weight: bold;
+	font-size: 19px;
+	padding: 15px;
+	border-radius: 6px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+
+}
+
+.container{
+	width: 900px;
+	margin:0 auto;
+}
+
+.card-white{
+	background-color: white;
+	border-radius:5px;
+	padding: 50px;
+	margin:20px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display:inline;
+	padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
